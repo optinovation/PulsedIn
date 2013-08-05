@@ -26,8 +26,4 @@ module Pulsedin
     # config.i18n.default_locale = :de
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
-
-     # Required for Devise on Heroku
-    config.assets.initialize_on_precompile = false
-  end
 end
